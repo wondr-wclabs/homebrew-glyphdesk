@@ -2,8 +2,8 @@ cask "glyphdesk" do
   version "0.2.0"
   sha256 "0bc5b5fec25ef4a675811e37ed4007f12f701ff6b79d56a0acafa316881e4218"
 
-  url "https://github.com/wondr-wclabs/GlyphDesk/releases/download/v#{version}/GlyphDesk-#{version}.zip",
-      verified: "github.com/wondr-wclabs/GlyphDesk/"
+  url "https://github.com/wondr-wclabs/homebrew-glyphdesk/releases/download/v#{version}/GlyphDesk-#{version}.zip",
+      verified: "github.com/wondr-wclabs/homebrew-glyphdesk/"
   name "GlyphDesk"
   desc "Typographic desktop widget playground"
   homepage "https://glyphdesk.vercel.app/"
