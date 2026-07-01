@@ -19,8 +19,8 @@ cask "glyphdesk" do
   ]
 
   caveats <<~EOS
-    GlyphDesk 0.2.0 is ad-hoc signed (not notarized). Install with:
-      brew install --cask glyphdesk --no-quarantine
-    or right-click the app and choose Open on first launch.
+    GlyphDesk is ad-hoc signed (not notarized yet). Install with:
+      HOMEBREW_CASK_OPTS=--no-quarantine brew install --cask glyphdesk
+    or right-click GlyphDesk.app and choose Open on first launch.
   EOS
 end

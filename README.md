@@ -6,12 +6,13 @@ Typographic desktop widget playground for macOS.
 
 ```bash
 brew tap wondr-wclabs/glyphdesk
-brew install --cask glyphdesk --no-quarantine
+brew trust wondr-wclabs/glyphdesk
+HOMEBREW_CASK_OPTS=--no-quarantine brew install --cask glyphdesk
 ```
 
-`--no-quarantine` is required while releases are ad-hoc signed (not yet
-notarized). Alternatively, right-click GlyphDesk.app and choose Open on
-first launch.
+Disabling quarantine is required while releases are ad-hoc signed (not yet
+notarized). Alternatively, install without it and right-click GlyphDesk.app
+and choose Open on first launch.
 
 ## Links
 
