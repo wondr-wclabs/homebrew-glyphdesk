@@ -1,6 +1,6 @@
 cask "glyphdesk" do
   version "0.2.0"
-  sha256 "0bc5b5fec25ef4a675811e37ed4007f12f701ff6b79d56a0acafa316881e4218"
+  sha256 "f65d39d0a8769e0fb59c04fa9b1d7d652917f2507f08fd36b655c9c62de76590"
 
   url "https://github.com/wondr-wclabs/homebrew-glyphdesk/releases/download/v#{version}/GlyphDesk-#{version}.zip",
       verified: "github.com/wondr-wclabs/homebrew-glyphdesk/"
